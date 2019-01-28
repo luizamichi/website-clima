@@ -4,220 +4,288 @@
 <head>
 	<title>Clínica Médica Arapuá</title>
 	<meta charset="utf-8"/>
-	<meta content="Luiz Joaquim Aderaldo Amichi" name="author"/>
-	<meta content="Procurando uma clínica médica em Maringá? A Clínica Médica Arapuá é a melhor opção para você. Conheça agora nossa clínica médica." name="description"/>
-	<meta content="Cirurgião geral, clínico geral, Maringá, médico, PAM Saúde, psiquiatra, Sama, Santa Rita, SUS, Unimed." name="keywords"/>
-	<meta content="width=device-width, initial-scale=1" name="viewport"/>
+	<meta name="author" content="Luiz Joaquim Aderaldo Amichi"/>
+	<meta name="description" content="Procurando uma clínica médica em Maringá? A Clínica Médica Arapuá é a melhor opção para você. Conheça agora nossa clínica médica."/>
+	<meta name="keywords" content="Cirurgião geral, clínico geral, Maringá, médico, psiquiatra, Unimed."/>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
 
-	<meta content="Clínica Médica Arapuá" property="og:title"/>
-	<meta content="Procurando uma clínica médica em Maringá? A Clínica Médica Arapuá é a melhor opção para você. Conheça agora nossa clínica médica." property="og:description"/>
-	<meta content="http://www.clinicamedicaarapua.com.br/" property="og:url"/>
-	<meta content="website" property="og:type"/>
-	<meta content="http://www.clinicamedicaarapua.com.br/logo.png" property="og:image"/>
+	<meta property="og:url" content="http://www.clinicamedicaarapua.com.br/"/>
+	<meta property="og:type" content="website"/>
+	<meta property="og:title" content="Clínica Médica Arapuá"/>
+	<meta property="og:description" content="Procurando uma clínica médica em Maringá? A Clínica Médica Arapuá é a melhor opção para você. Conheça agora nossa clínica médica."/>
+	<meta property="og:image" content="http://www.clinicamedicaarapua.com.br/img/arapua_a.png"/>
 
-	<link href="favicon.ico" rel="icon"/>
-	<link href="https://www.w3schools.com/w3css/4/w3.css" rel="stylesheet"/>
-	<link href="https://www.w3schools.com/lib/w3-theme-black.css" rel="stylesheet"/>
-	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet"/>
+	<link rel="icon" href="img/logo_c.ico"/>
+	<link rel="stylesheet" type="text/css" href="css/google-fonts.css"/>
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css"/>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
 </head>
 
-<body>
-	<!-- Side Navigation -->
-	<nav class="w3-animate-left w3-bar-block w3-card w3-center w3-sidebar" id="sidebar" style="display:none">
-		<a class="w3-bar-item w3-button" href="#home" onclick="w3_close()">Home</a>
-		<a class="w3-bar-item w3-button" href="#services" onclick="w3_close()">Serviços</a>
-		<a class="w3-bar-item w3-button" href="#about" onclick="w3_close()">Sobre</a>
-		<a class="w3-bar-item w3-button" href="#doctors" onclick="w3_close()">Médicos</a>
-		<a class="w3-bar-item w3-button" href="#contact" onclick="w3_close()">Contato</a>
-		<button class="w3-bar-item w3-button" onclick="w3_close()" title="Fechar"><i class="fa fa-remove"></i></button>
-	</nav>
-
-	<!-- Header -->
-	<header class="w3-container w3-padding w3-theme" id="header">
-		<i class="fa fa-bars w3-button w3-theme w3-xlarge" onclick="w3_open()"></i>
-		<div class="w3-center">
-			<h1 class="w3-animate-bottom w3-xxxlarge">Clínica Médica Arapuá</h1>
-			<p>Estamos localizados na Zona 3, em Maringá, e estamos prontos para <br/> prover um atendimento humanizado com profissionais capacitados.</p>
-			<div class="w3-padding-32">
-				<button class="w3-btn w3-dark-grey w3-hover-light-grey" onclick="document.getElementById('modal').style.display='block'" style="font-weight:900">MARQUE UMA CONSULTA</button>
-			</div>
-		</div>
-	</header>
-
-	<!-- Modal -->
-	<div class="w3-modal" id="modal">
-		<div class="w3-animate-top w3-card-4 w3-modal-content">
-			<header class="w3-container w3-theme-l1">
-				<span class="w3-button w3-display-topright" onclick="document.getElementById('modal').style.display='none'">&times;</span>
-				<h4>Agendamento de consulta</h4>
-			</header>
-			<div class="w3-padding">
-				<p>Você pode entrar em contato conosco através do nosso e-mail ou pelo telefone.</p>
-				<p><strong>E-mail:</strong> clinicamedicaarapua@hotmail.com</p>
-				<p><strong>Telefone:</strong> (44) 3225-5300</p>
-			</div>
-		</div>
-	</div>
-
-	<!-- Opening Hours -->
-	<div class="w3-container" id="opening-hours">
-		<div class="w3-center">
-			<h2>Horário de Atendimento</h2>
-		</div>
-		<div class="w3-row">
-			<div class="m2 w3-black w3-container w3-third">
-				<p><strong>Segunda a Sexta</strong> - 8:00 às 20:00</p>
-			</div>
-			<div class="m2 w3-container w3-dark-grey w3-third">
-				<p><strong>Sábado</strong> - 8:00 às 12:00</p>
-			</div>
-			<div class="m2 w3-black w3-container w3-third">
-				<p><strong>Domingo</strong> - Fechado</p>
-			</div>
-		</div>
-	</div>
-
-	<!-- Services -->
-	<div class="w3-container" id="services">
-		<hr/>
-		<div class="w3-center">
-			<h2>Serviços</h2>
-		</div>
-		<div class="w3-center w3-margin-top w3-row-padding">
-			<div class="w3-quarter">
-				<div class="w3-card w3-container" style="min-height:460px">
-					<h3>Procedimentos Simples</h3>
-					<br/>
-					<i class="fa fa-stethoscope w3-margin-bottom w3-text-theme" style="font-size:120px"></i>
-					<p>A realização de alguns procedimentos básicos internamente visa evitar a necessidade de transporte do paciente para outro local e agiliza o processo diagnóstico em determinados casos.</p>
-				</div>
-			</div>
-			<div class="w3-quarter">
-				<div class="w3-card w3-container" style="min-height:460px">
-					<h3>Plano de Saúde</h3>
-					<br/>
-					<i class="fa fa-ambulance w3-margin-bottom w3-text-theme" style="font-size:120px"></i>
-					<p>Atendimento para diversos planos de saúde (PAM Saúde, Sama, Santa Rita, Unimed) e pacientes do SUS.</p>
-				</div>
-			</div>
-			<div class="w3-quarter">
-				<div class="w3-card w3-container" style="min-height:460px">
-					<h3>Exames Básicos</h3>
-					<br/>
-					<i class="fa fa-user-md w3-margin-bottom w3-text-theme" style="font-size:120px"></i>
-					<p>Realização periódica de vários exames clínicos, com o objetivo de avaliar o estado geral de saúde e diagnosticar precocemente alguma doença que ainda não tenha manifestado sintomas.</p>
-				</div>
-			</div>
-			<div class="w3-quarter">
-				<div class="w3-card w3-container" style="min-height:460px">
-					<h3>Aconselhamento Médico</h3>
-					<br/>
-					<i class="fa fa-medkit w3-margin-bottom w3-text-theme" style="font-size:120px"></i>
-					<p>A ideia é promover mais comodidade, uma vez que o paciente não precisa ir à clínica caso a situação possa ser resolvida pelo telefone.</p>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<!-- About -->
-	<div class="w3-container" id="about">
-		<hr/>
-		<div class="w3-center">
-			<h2>Sobre nós</h2>
-			<p>Localizada em Maringá, a Clínica Médica Arapuá há mais de 20 anos trabalha com total profissionalismo e humanidade em busca do melhor atendimento possível a seus pacientes.</p>
-		</div>
-		<div class="w3-row-padding">
-			<div class="w3-half">
-				<div class="w3-card white">
-					<div class="w3-black w3-container">
-						<h3>Missão</h3>
+<body data-offset="60" data-spy="scroll" data-target=".navbar">
+	<!--BANNER-->
+	<section id="banner">
+		<div class="bg-color">
+			<nav class="navbar navbar-default navbar-fixed-top">
+				<div class="container">
+					<div class="col-md-12">
+						<div class="navbar-header">
+							<button class="navbar-toggle" data-target="#navbar" data-toggle="collapse" type="button">
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+							<p class="navbar-brand">Clínica Médica Arapuá</p>
+						</div>
+						<div class="collapse navbar-collapse navbar-right" id="navbar">
+							<ul class="nav navbar-nav">
+								<li class="active"><a href="#banner">Home</a></li>
+								<li><a href="#service">Serviços</a></li>
+								<li><a href="#about">Sobre</a></li>
+								<li><a href="#doctor-team">Médicos</a></li>
+								<li><a href="#contact">Contato</a></li>
+							</ul>
+						</div>
 					</div>
-					<ul class="w3-border-top w3-ul">
-						<li>
-							<p>Promover a saúde da população visando a prevenção de doenças através de assistência médica especializada e altamente qualificada, focando na competência e excelência no atendimento.</p>
-						</li>
-					</ul>
 				</div>
-			</div>
-			<div class="w3-half">
-				<div class="w3-card white">
-					<div class="w3-black w3-container">
-						<h3>Valores</h3>
+			</nav>
+			<div class="container">
+				<div class="row">
+					<div class="banner-info">
+						<div class="banner-logo text-center">
+							<img alt="Foto do logotipo da clínica" class="img-responsive" src="img/arapua_b.png" width="600"/>
+						</div>
+						<div class="banner-text text-center">
+							<p>Estamos localizados na Zona 3, em Maringá, e estamos prontos para <br/> prover um atendimento humanizado com profissionais capacitados.</p>
+							<a href="#contact" class="btn btn-appoint">Marque uma consulta</a>
+						</div>
+						<div class="overlay-detail text-center">
+							<a href="#service"><i class="fa fa-angle-down"></i></a>
+						</div>
 					</div>
-					<ul class="w3-border-top w3-ul">
-						<li>
-							<p>Responsabilidade técnica através da ética, transparência, comprometimento, competência e inovação.</p>
-						</li>
-					</ul>
-					<br/>
-					<div class="w3-container w3-indigo w3-large"><span class="w3-right"></span></div>
 				</div>
 			</div>
 		</div>
-	</div>
+	</section>
+	<!--/BANNER-->
 
-	<!-- Doctors -->
-	<div class="w3-container" id="doctors">
-		<hr/>
-		<div class="w3-center">
-			<h2>Conheça nossos médicos</h2>
-		</div>
-		<br/>
-		<div class="w3-border w3-center w3-row">
-			<div class="w3-border w3-container">
-				<h4>Ana Maria Turkowski Noria</h4>
-				<p>Clínico geral, generalista, psiquiatra</p>
+	<!--SERVICE-->
+	<section class="section-padding" id="service">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4 col-sm-4">
+					<h2>Nossos serviços</h2>
+					<hr class="botm-line"/>
+					<p>Oferecemos consultas com profissionais capacitados em psiquiatria e clínica geral.</p>
+					<div class="time-info">
+						<h2>Horário de Atendimento</h2>
+						<hr class="botm-line"/>
+						<table>
+							<tbody>
+								<tr>
+									<td><strong>Segunda - Sexta</strong></td>
+									<td>8:00 - 20:00</td>
+								</tr>
+								<tr>
+									<td><strong>Sábado</strong></td>
+									<td>8:00 - 12:00</td>
+								</tr>
+								<tr>
+									<td><strong>Domingo</strong></td>
+									<td>Fechado</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-4">
+					<div class="service-info">
+						<div class="icon">
+							<i class="fa fa-stethoscope"></i>
+						</div>
+						<div class="icon-info">
+							<h4>Procedimentos Simples</h4>
+							<p class="text-justify">A realização de alguns procedimentos básicos internamente visa evitar a necessidade de transporte do paciente para outro local e agiliza o processo diagnóstico em determinados casos.</p>
+						</div>
+					</div>
+					<div class="service-info">
+						<div class="icon">
+							<i class="fa fa-ambulance"></i>
+						</div>
+						<div class="icon-info">
+							<h4>Plano de Saúde</h4>
+							<p class="text-justify">Atendimento para diversos planos de saúde (PAM Saúde, Sama, Santa Rita, Unimed) e pacientes do SUS.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-4">
+					<div class="service-info">
+						<div class="icon">
+							<i class="fa fa-user-md"></i>
+						</div>
+						<div class="icon-info">
+							<h4>Exames Básicos</h4>
+							<p class="text-justify">Realização periódica de vários exames clínicos, com o objetivo de avaliar o estado geral de saúde e diagnosticar precocemente alguma doença que ainda não tenha manifestado sintomas.</p>
+						</div>
+					</div>
+					<div class="service-info">
+						<div class="icon">
+							<i class="fa fa-medkit"></i>
+						</div>
+						<div class="icon-info">
+							<h4>Aconselhamento Médico</h4>
+							<p class="text-justify">A ideia é promover mais comodidade, uma vez que o paciente não precisa ir à clínica caso a situação possa ser resolvida pelo telefone.</p>
+						</div>
+					</div>
+				</div>
 			</div>
-			<div class="w3-border w3-container">
-				<h4>Manoel Alvares Sobrinho</h4>
-				<p>Cirurgião geral, clínico geral, psiquiatra</p>
+		</div>
+	</section>
+	<!--/SERVICE-->
+
+	<!--ABOUT-->
+	<section class="section-padding" id="about">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3 col-sm-4 col-xs-12">
+					<div class="section-title">
+						<h2 class="head-title lg-line">Sobre nós</h2>
+						<hr class="botm-line"/>
+						<p class="sec-para">Localizada em Maringá, a Clínica Médica Arapuá há mais de 20 anos trabalha com total profissionalismo e humanidade em busca do melhor atendimento possível a seus pacientes.</p>
+					</div>
+				</div>
+				<div class="col-md-9 col-sm-8 col-xs-12">
+					<div class="col-sm-9 more-features-box">
+						<div class="more-features-box-text">
+							<div class="more-features-box-text-icon"><i aria-hidden="true" class="fa fa-angle-right"></i></div>
+							<div class="more-features-box-text-description">
+								<h3>Missão</h3>
+								<p>Promover a saúde da população visando a prevenção de doenças através de assistência médica especializada e altamente qualificada, focando na competência e excelência no atendimento.</p>
+							</div>
+						</div>
+						<div class="more-features-box-text">
+							<div class="more-features-box-text-icon"><i aria-hidden="true" class="fa fa-angle-right"></i></div>
+							<div class="more-features-box-text-description">
+								<h3>Valores</h3>
+								<p>Responsabilidade técnica através da ética, transparência, comprometimento, competência e inovação.</p>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
-		<br/>
-	</div>
+	</section>
+	<!--/ABOUT-->
 
-	<!-- Contact -->
-	<div class="w3-container" id="contact">
-		<hr/>
-		<div class="w3-center">
-			<h2>Entre em Contato</h2>
+	<!--DOCTOR TEAM-->
+	<section class="section-padding" id="doctor-team">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<h2>Conheça nossos médicos!</h2>
+					<hr class="botm-line"/>
+				</div>
+				<div class="col-md-3 col-md-offset-2 col-sm-3 col-sm-offset-2 col-xs-6">
+					<div class="thumbnail">
+						<img alt="Foto da doutora Ana Maria Turkowski Noria" class="team-img" src="img/doctor1.jpg"/>
+						<div class="caption">
+							<h3>Ana Maria Turkowski Noria</h3>
+							<p>Clínico geral, generalista, psiquiatra</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-md-offset-2 col-sm-3 col-sm-offset-2 col-xs-6">
+					<div class="thumbnail">
+						<img alt="Foto do doutor Manoel Alvares Sobrinho" class="team-img" src="img/doctor2.jpg"/>
+						<div class="caption">
+							<h3>Manoel Alvares Sobrinho</h3>
+							<p>Cirurgião geral, clínico geral, psiquiatra</p>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
-		<div class="w3-center">
-			<p><i class="fa fa-2x fa-fw fa-map-marker"></i>Maringá - PR, 87013-915</p>
-			<p><i class="fa fa-2x fa-fw fa-location-arrow"></i>Rua Néo Alves Martins, 3377</p>
-			<p><i class="fa fa-2x fa-envelope-o fa-fw"></i>clinicamedicaarapua@hotmail.com</p>
-			<p><i class="fa fa-2x fa-fw fa-phone"></i>(44) 3225-5300</p>
-		</div>
-	</div>
+	</section>
+	<!--/DOCTOR TEAM-->
 
-	<!-- Footer -->
-	<footer class="w3-container w3-padding-16 w3-theme-dark">
-		<h3>Copyright &copy; <strong>2017</strong> Clínica Médica Arapuá. Todos os direitos reservados.</h3>
-		<p>Desenvolvido por <a href="https://luizamichi.com.br">Luiz Joaquim Aderaldo Amichi</a></p>
-		<div class="w3-right w3-tooltip" style="position:relative;bottom:55px">
-			<span class="w3-padding w3-text w3-theme-light">Ir para o topo</span>
-			<a class="w3-text-white" href="#header">
-				<span class="w3-xlarge">
-					<i class="fa fa-chevron-circle-up"></i>
-				</span>
-			</a>
+	<!--CONTACT-->
+	<section class="section-padding" id="contact">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<h2>Entre em Contato</h2>
+					<hr class="botm-line"/>
+				</div>
+				<div class="col-md-4 col-sm-4">
+					<h3>Informações</h3>
+					<div class="space"></div>
+					<p><i class="fa fa-2x fa-fw fa-map-marker pull-left"></i>Rua Néo Alves Martins, 3377 <br/> Maringá - PR, 87013-915</p>
+					<div class="space"></div>
+					<p><i class="fa fa-2x fa-fw fa-envelope-o pull-left"></i>clinicamedicaarapua@hotmail.com</p>
+					<div class="space"></div>
+					<p><i class="fa fa-2x fa-fw fa-phone pull-left"></i>(44) 3225-5300</p>
+				</div>
+				<div class="col-md-8 col-sm-8 marb20">
+					<div class="contact-info">
+						<h3 class="cnt-ttl">Marque uma consulta</h3>
+						<div class="space"></div>
+						<div id="sendmessage">Sua mensagem foi enviada. Obrigado!</div>
+						<div id="errormessage">Sua mensagem não pode ser enviada. Entre em contato através do nosso e-mail ou telefone!</div>
+						<form action="mail/contactform.php" class="contactForm" method="post">
+							<div class="form-group">
+								<input class="form-control br-radius-zero" data-msg="Digite pelo menos 4 caracteres" data-rule="minlen:4" id="name" name="name" placeholder="Seu nome" type="text"/>
+								<div class="validation"></div>
+							</div>
+							<div class="form-group">
+								<input class="form-control br-radius-zero" data-msg="Digite um email válido" data-rule="email" id="email" name="email" placeholder="Seu email" type="email"/>
+								<div class="validation"></div>
+							</div>
+							<div class="form-group">
+								<input class="form-control br-radius-zero" data-msg="Digite pelo menos 8 caracteres" data-rule="minlen:4" id="subject" name="subject" placeholder="Assunto" type="text"/>
+								<div class="validation"></div>
+							</div>
+							<div class="form-group">
+								<textarea class="form-control br-radius-zero" data-msg="Digite algo para nós" data-rule="required" name="message" placeholder="Mensagem" rows="5"></textarea>
+								<div class="validation"></div>
+							</div>
+							<div class="form-action">
+								<button class="btn btn-form" type="submit">Enviar mensagem</button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--/CONTACT-->
+
+	<!--FOOTER-->
+	<footer id="footer">
+		<div class="footer-line">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 text-center">
+						Copyright &copy; <strong>2019</strong> Clínica Médica Arapuá. Todos os direitos reservados.
+						<br/>
+						<small>Designed by <a href="https://bootstrapmade.com/">BootstrapMade.com</a></small>
+						<br/>
+						<a href="https://luizamichi.com.br" target="_blank" title="Desenvolvido por Luiz Joaquim Aderaldo Amichi">
+							<img alt="Luiz Joaquim Aderaldo Amichi" class="luiz-amichi" height="30" src="img/luiz_amichi.svg"/>
+						</a>
+					</div>
+				</div>
+			</div>
 		</div>
 	</footer>
+	<!--/FOOTER-->
 
-	<!-- Script for Sidebar -->
-	<script>
-		function w3_open() {
-			var x = document.getElementById("sidebar");
-			x.style.display = "block";
-			x.style.fontSize = "40px";
-			x.style.paddingTop = "10%";
-			x.style.width = "100%";
-		}
-
-		function w3_close() {
-			document.getElementById("sidebar").style.display = "none";
-		}
-	</script>
+	<!--SCRIPT-->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery.easing.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/custom.js"></script>
+	<script src="js/contactform.js"></script>
+	<!--/SCRIPT-->
 </body>
 
 </html>
